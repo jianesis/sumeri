@@ -32,7 +32,7 @@ module Peatio
       end
 
       if defined?(Rails::Railtie)
-        require "peatio/everitoken/railtie"
+        require "peatio/everi_token/railtie"
       else
         check_compatibility
         register
