@@ -26,8 +26,8 @@ module Peatio
         end
 
         def register
-          Peatio::Blockchain.registry[:everitoken] = EveriToken::Blockchain.new
-          Peatio::Wallet.registry[:everitoken] = EveriToken::Wallet.new
+          Peatio::Blockchain.registry[:everi_token] = EveriToken::Blockchain.new
+          Peatio::Wallet.registry[:everi_token] = EveriToken::Wallet.new
         end
       end
 
